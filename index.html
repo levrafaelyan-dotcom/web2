@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автомобильный каталог</title>
+   
+</head>
+<body>
+<header>
+        
+            <h1>Автомобильный каталог</h1>
+            
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#main">Главная</a></li>
+            <li><a href="#catalog">Каталог</a></li>
+            <li><a href="#table">Таблица автомобилей</a></li>
+            <li><a href="#links">Ссылки</a></li>
+            <li><a href="#form">Форма</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <main>
+            <section id="main">
+                
+            </section>
+            
+            <section id="table">
+                
+                <h2 class="section-title">Список гиперссылок</h2>
+            
+            <ul class="links-list">
+                <li><a href="http://www.kubsu.ru/" target="_blank" title="Перейти на Example.com">Абсолютная гиперссылка на сайт КубГУ</a></li>
+                <li><a href="https://www.kubsu.ru/" target="_blank" title="Перейти на Example.com">Абсолютная гиперссылка на сайт КубГУ</a></li>
+                <li>
+                    <a href="https://www.kubsu.ru" target="_blank">
+                        <img src="bmw.jpg" alt="Пример изображения" width="300" height="200">
+                    </a>
+                </li>
+                <li><a href="#forma">Сокращенная ссылка на внутреннюю страницу</a></li>
+                <li><a href="#top">Сокращенная ссылка на главную страницу</a></li>
+                <li><a href="#section">Ссылка на фрагмент текущей страницы</a></li>
+                <li><a href="https://www.kubsu.ru/ru/user/password" target="_blank">Ссылка с тремя параметрами в URL</a></li>
+                <li><a href="https://kubsu.ru/node/44?id=185" target="_blank">Ссылка с параметром id в URL</a></li>
+                <li><a href="https://www.kubsu.ru/ru/studlife" target="_blank">Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li><a href="https://kubsu.ru/ru/education" target="_blank">Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li><a href="https://www.kubsu.ru/ru/about" target="_blank">Относительная ссылка на страницу в каталоге about</a></li>
+                <li><a href="https://www.kubsu.ru/ru" target="_blank">Относительная ссылка на страницу уровнем выше текущего</a></li>
+                <li><a href="https://www.kubsu.ru" target="_blank">Относительная ссылка на страницу двумя уровнями выше</a></li>
+                <li>Если хотите посетить <a href="https://www.kubsu.ru" target="_blank">официальный сайт КубГу</a>, то быстрее переходи по ссылке!</li>
+                <li><a href="https://www.desmos.com/calculator?lang=ru" target="_blank">Ссылка на фрагмент страницы стороннего сайта</a></li>
+                
+                <li class="image-map-container">
+                    <img src="mers.jpg" width="600" usemap="#image-map" alt="Уменьшенное изображение">
+                    <map name="image-map">
+                        <area target="_blank" alt="Прямоугольная область" title="Прямоугольная область" 
+                              href="https://www.kubsu.ru/ru/sveden" coords="29,36,305,320" shape="rect">
+                        <area target="_blank" alt="Круглая область" title="Круглая область" 
+                              href="https://www.kubsu.ru/ru/node/21" coords="453,176,126" shape="circle">
+                    </map>
+                </li>
+                
+                <li><a href="">Ссылка с пустым href</a></li>
+                <li><a>Ссылка без href</a></li>
+                <li><a href="https://site.com" rel="nofollow" target="_blank">Ссылка, по которой запрещен переход поисковикам</a></li>
+                <li>
+                    <!-- noindex -->
+                    <a href="https://kubsu.ru" rel="noindex" target="_blank">Запрещенная ссылка для индексации поисковиками</a>
+                    <!-- /noindex -->
+                </li>
+                <li>
+                    Нумерованный список ссылок
+                    <ol>
+                        <li><a href="https://www.kubsu.ru/ru" title="Главная страница" target="_blank">КубГУ</a></li>
+                        <li><a href="https://www.kubsu.ru/ru/abitur" title="Для поступающих" target="_blank">Абитуриентам</a></li>
+                        <li><a href="https://www.kubsu.ru/ru/education" title="Учебный процесс" target="_blank">Образование</a></li>
+                    </ol>
+                </li>
+                <li><a href="ftp://ftp.kubsu.ru/documents/price_list.pdf" target="_blank">Ссылка на файл на сервере FTP с авторизацией</a></li>
+            </ul>
+<h2>Таблица автомобилей</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Марка машины</th>
+                            <th>Класс</th>
+                            <th>Модель</th>
+                            <th>Страна производства</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Toyota</td>
+                            <td>Седан</td>
+                            <td>Camry</td>
+                            <td>Япония</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Volkswagen</td>
+                            <td>Хэтчбек</td>
+                            <td>Golf</td>
+                            <td>Германия</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Ford</td>
+                            <td>Внедорожник</td>
+                            <td>Explorer</td>
+                            <td>США</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Hyundai</td>
+                            <td>Кроссовер</td>
+                            <td>Tucson</td>
+                            <td>Южная Корея</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>BMW</td>
+                            <td>Премиум</td>
+                            <td>X5</td>
+                            <td>Германия</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            
+            <section id="links">
+                <h2>Форма</h2>
+                <form action="/submit_form" method="post">
+                    <label for="fio">ФИО:</label>
+                    <input required type="text" id="fio" name="fio"><br><br>
+                    
+                    <label for="phone">Телефон:</label>
+                    <input required type="tel" id="phone" name="phone"><br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input required type="email" id="email" name="email"><br><br>
+                    
+                    <label for="dob">Дата рождения:</label>
+                    <input required type="date" id="dob" name="dob"><br><br>
+                    
+                    <label>Пол:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Мужчина</label>
+                    <input required type="radio" id="female" name="gender" value="female">
+                    <label for="female">Женщина</label><br><br>
+                    
+                    <label for="languages">Любимый язык программирования:</label>
+                    <select id="languages" name="languages" multiple>
+                        <option value="Pascal">Pascal</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="Haskell">Haskell</option>
+                        <option value="Clojure">Clojure</option>
+                        <option value="Prolog">Prolog</option>
+                        <option value="Scala">Scala</option>
+                    </select><br><br>
+                    
+                    <label for="bio">Биография:</label>
+                    <textarea id="bio" name="bio"></textarea><br><br>
+                    
+                    <label for="contract">С контрактом ознакомлен (а):</label>
+                    <input required type="checkbox" id="contract" name="contract"><br><br>
+                    
+                    <input type="submit" value="Сохранить">
+                </form>
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+        <p>© 2025 Автомобильный каталог. Все права защищены.</p>
+        <p>Контактная информация: example@example.com | Телефон: +7 (XXX) XXX-XX-XX</p>
+    </footer>
+</body>
+</html>
